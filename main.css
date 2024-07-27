@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Red Hat Display", sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.landing-section{
+    text-align: center;
+    
+}
+.heading{
+    padding: 60px 60px;
+}
+.group-chat-Section{
+    background-image: url(assets/desktop/image-hero-left.png),url(assets/desktop/image-hero-right.png);
+    background-repeat: no-repeat;
+    background-position: left top, right;
+    background-size: 350px;
+}
+
+.group-chat{
+    justify-content: center;
+    font-weight: 900;
+    font-size: 64px;
+
+}
+.group-chat-para{
+    font-size: 18px;
+    padding: 32px 32px;
+    color: #87879D;
+}
+
+
+.Downloadbtn{
+    color:white;
+    font-size: 16px;
+    font-weight: 900;
+    background: #71C0D4;
+    border: 1px solid #71C0D4;
+    border-radius: 30px;
+    height: 50px;
+    width:193px;
+}
+.version{
+    color: #8FE3F9;
+
+
+}
+.Whybtn{
+    background: #B18BDD;
+    color:white;
+    font-size: 16px;
+    font-weight: 900;
+    
+    border: 1px solid #B18BDD;
+    border-radius: 30px;
+    height: 50px;
+    width:139px;
+}
+.number1{
+    padding:64px;
+    text-align: -webkit-center;
+}
+.line{
+    border: 1px solid #87879D;;
+    height: 100px;
+}
+.circle{
+    text-align: center;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 1px solid #87879D40;
+}
