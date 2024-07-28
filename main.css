@@ -84,6 +84,7 @@ table {
     width:193px;
 }
 .version{
+    padding-left: 5px;
     color: #8FE3F9;
 
 
@@ -103,9 +104,13 @@ table {
     padding:64px;
     text-align: -webkit-center;
 }
+.number2{
+    padding-top:64px;
+    text-align: -webkit-center;
+}
 .line{
     border: 1px solid #87879D;;
-    height: 100px;
+    height: 84px;
 }
 .circle{
     text-align: center;
@@ -114,3 +119,82 @@ table {
     border-radius: 50%;
     border: 1px solid #87879D40;
 }
+.head4{
+    padding: 18px;
+}
+.img-section{
+    width: 255px;
+    height: 242px;
+}
+.built_for{
+    margin-top: 80px;
+
+}
+.built{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    color: #4D96A9;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+.Smarter{
+    font-size: 40px;
+    font-weight: 900;
+    color: #28283D;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+.built-para{
+    font-size: 18px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #87879D;
+    padding: 32px 0px 8px 0px;
+
+}
+.footer-img{
+    position: relative;
+    height: 308px;
+    background-image: url(assets/desktop/image-footer.jpg);
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+ .footer{
+   width: 100%;
+   height: 308px;
+    position: absolute;
+    background: #4D96A9;
+    
+
+}
+.footer-content{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 107px;
+ 
+}
+.Experience{
+color: white;
+font-size: 40px;
+font-family: "Red Hat Display", sans-serif;
+}
+.content-para{
+    color: white;
+    font-size: 18px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.Downloadbtn2{
+    background: #B18BDD;
+    color:white;
+    font-size: 16px;
+    font-weight: 900;
+   
+    border: 1px solid #B18BDD;
+    border-radius: 30px;
+    height: 50px;
+    width:193px;
+} 
